@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+
+}
+
+
+
+h1{
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    font-size: 8rem;
+    color: #70C6DC;
+
+}
+
+span{
+    text-decoration:underline;
+
+}
+p{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+hr{
+    border-color: #A2E9EB;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-width: 10px 0 0 0 ;
+    border-style: dotted;
+    width: 10%;
+   
+}
+
+
+.programmer{
+    color: #70C6DC;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+#title-card{
+    background-color: #A2E9EB;
+}
+
+.title{
+    width: 1366px;
+    position: relative;
+}
+
+.cloud1{
+    position: relative;
+    margin-top: 50px;
+    left: 220px;
+
+}
+.cloud2{
+    position: absolute;
+    left:300px;
+    
+}
+.mountain{
+    position: relative;
+    bottom: 80px;
+}
+
+.ronel-image{
+    width: 250px;
+    border-radius: 50%;
+
+}
+.body-text{
+    font-size: 1rem;
+    width: 900px;
+}
+
+.body-card{
+    margin-top: 50px;
+}
+
+.skill-card{
+    
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    max-width: 900px;
+    margin-bottom: 20px;
+
+}
+.program{
+    width: 230px;
+    height: 200px;
+    
+   
+}
+.graphic-text{
+    text-align: left;
+    font-size: 1rem;
+
+}
+.skill-text{
+    text-align: left;
+    color: #70C6DC;
+    font-size: 1.1rem;
+    
+}
+.container-skill{
+    margin-left: 50px;
+
+}
+.get-in{
+    font-size: 2rem;
+    color: #70C6DC;
+}
+.interested-text{
+    font-size:1.5rem;
+}
+
+.container-contact{
+    
+    text-align: center;
+  
+}
+.contact-list{
+ 
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.footer{
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+.hello{
+    color: #70C6DC;
+}
+
+.footer-container{
+    padding-top: 50px;
+    
+    gap: 20px;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+
+}
+
+.none{
+    text-decoration: none;
+    color: #70C6DC;
+}
+
+.ronel{
+    font-size: 1rem;
+    text-align: center;
+    
+}
